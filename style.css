@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background: lawngreen;
+}
+.card{
+    width: 300px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin-bottom: 15px;
+}
