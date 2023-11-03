@@ -10,13 +10,16 @@
     border-radius: 5px;
     height: 100%;
     background-color: darkgreen;
-    animation: Progressbar-animation 16s forwards;
+    
+}
+
+#play-anim{
+    animation: Progressbar-animation 16s reverse;
 }
 
 @keyframes Progressbar-animation{
     0% {width: 0%;}
     100% {width: 100%;}
-    disply {display: none;}
 }
 .main{
     width: 300px;
@@ -45,6 +48,8 @@ p{
     border-bottom: 1px solid red;
 }
 .book{
+    position: absolute;
+    top: 93px;
     overflow: hidden;
     display: flex;
     align-items: flex-start;
@@ -56,4 +61,8 @@ img{
     margin: 5px;
     width: 100px;
     height: 100px;
+}
+.IMAGE-GALLERY{
+    position: absolute;
+    top: 300px;
 }
